@@ -1,3 +1,6 @@
+#use official python runtime as base image
+FROM python:3.9-slim
+
 WORKDIR /app
 
 # install required packages for system
